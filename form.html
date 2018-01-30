@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Website Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic,cyrillic-ext"
+          rel="stylesheet">
+</head>
+<body>
+<header class="header header--mobile">
+    <div class="container">
+        <div class="header__content">
+            <a href="index.html" class="header__logo">
+                <i class="header__logo-img icon"></i>
+            </a>
+            <span class="header__sandwich "></span>
+        </div>
+    </div>
+</header>
+<header class="header header--tablet">
+    <div class="container">
+        <div class="header__content">
+            <a href="index.html" class="header__tablet-logo">
+                <i class="header__logo-img icon"></i>
+            </a>
+            <div class="header__nav">
+                <div class="header__nav-wrapper">
+                    <a href="#" class="header__nav-search icon"></a>
+                </div>
+                <div class="header__nav-cart icon">
+                    <a href="#" class="header__nav-link icon"> Корзина: пока пуста</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav-bottom">
+            <div class="header__nav-menu">
+                <div class="header__nav-left">
+                    <a href="catalog.html">Каталог товаров</a>
+                </div>
+                <div class="header__nav-">
+                    <a href="#">Вязание на заказ</a>
+                </div>
+            </div>
+            <div class="header__nav-menu header__nav-menu--grey">
+                <span>Бесплатная доставка по России</span>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="header-new">
+    <div class="container ">
+        <div class="header-new__top">
+            <div class="header-new__block">
+                <div class="header-new__nav">
+                    <div class="header-new__nav-top">
+                        <a href="catalog.html" class="header-new__link">Каталог товаров</a>
+                    </div>
+                    <div class="header-new__nav-top">
+                        <a href="#" class="">Вязание на заказ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-new__block header-new__logo">
+                <a href="index.html">
+                    <i class="header-new__icon icon"></i>
+                </a>
+            </div>
+            <div class="header-new__block">
+                <div class="header-new__user">
+                    <div class="header-new__search">
+                        <a href="catalog.html" class="header-new__search-icon icon "></a>
+                    </div>
+
+                    <div class="header-new__cart">
+                        <a href="#" class="header-new__cart-icon "> Корзина: пока пуста</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-new__bottom">
+            <div class="header-new__nav">
+                <div class="header-new__nav-bottom">
+                    <a href="#">Новые поступления</a>
+                </div>
+                <div class="header-new__nav-bottom">
+                    <a href="#">Распродажа</a>
+                </div>
+            </div>
+            <div class="header-new__nav-delivery">
+                <span>Бесплатная доставка по России</span>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="menu">
+    <ul class="menu__nav">
+        <li class="menu__item">
+            <a href="">Каталог товаров</a>
+        </li>
+        <li class="menu__item">
+            <a href="">Вязание на заказ</a>
+        </li>
+        <li class="menu__item menu__item--search">
+            <a href="">Поиск по сайту</a>
+        </li>
+        <li class="menu__item menu__item--cart">
+            <a href="">Корзина: пока пуста</a>
+        </li>
+    </ul>
+</div>
+<form action="/" class="form">
+    <div class="form__description">
+        <h2 class="form__title">Вязание на заказ
+            <div class="form__border--tablet"></div>
+        </h2>
+
+        <div class="container">
+            <p class="form__subtitle">
+                <span class="form__description">Мы будем рады воплотить в жизнь ваши пожелания!</span>
+                <span class="form__description">Заполните простую форму заказа, и мы свяжемся с вами,
+                чтобы уточнить детали.</span>
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <fieldset class="group">
+            <legend class="group__legend">Тип</legend>
+            <div class="group__wrapper">
+                <span class="group__legend--tablet">Тип</span>
+                <div class="group__right-coll">
+                    <div class="test">
+                        <div class="group__input-wrapper">
+                            <input id="accessory" name="type" class="group__input" type="radio" checked>
+                            <label for="accessory" class="group__label group__label--radio">
+                                <span class="group__text">Аксессуар для интерьера</span></label>
+                        </div>
+                        <div class="group__input-wrapper">
+                            <input id="toy" class="group__input" type="radio" name="type">
+                            <label for="toy" class="group__label group__label--radio icon">
+                                <span class="group__text">Детская игрушка</span></label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div class="container container--color">
+        <fieldset class="group">
+            <legend class="group__legend">Цвет</legend>
+            <div class="group__wrapper ">
+                <span class="group__legend--tablet">Цвет</span>
+                <div class="group__right-coll group__right-coll--desktop">
+                    <div class="group__input-wrapper width">
+                        <input id="white" class="group__input" type="checkbox" checked>
+                        <label for="white" class="group__label group__label--checkbox"><span
+                                class="group__text">Белый</span></label>
+                    </div>
+                    <div class="group__input-wrapper width">
+                        <input id="grey" class="group__input" type="checkbox" checked>
+                        <label for="grey" class="group__label group__label--checkbox"><span
+                                class="group__text">Серый</span></label>
+                    </div>
+                    <div class="group__input-wrapper width">
+                        <input id="teal" class="group__input" type="checkbox">
+                        <label for="teal" class="group__label group__label--checkbox"><span
+                                class="group__text">"Тиффани"</span></label>
+                    </div>
+                    <div class="group__input-wrapper width">
+                        <input id="black" class="group__input" type="checkbox">
+                        <label for="black" class="group__label group__label--checkbox"><span
+                                class="group__text">Черный</span></label>
+                    </div>
+                    <div class="group__input-wrapper width">
+                        <input id="pink" class="group__input" type="checkbox">
+                        <label for="pink" class="group__label group__label--checkbox"><span
+                                class="group__text">Розовый</span></label>
+                    </div>
+                    <div class="group__input-wrapper width">
+                        <input id="orange" class="group__input" type="checkbox">
+                        <label for="orange" class="group__label group__label--checkbox"><span
+                                class="group__text">Оранжевый</span></label>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div class="container">
+        <fieldset class="group">
+            <legend class="group__legend">Фио</legend>
+            <div class="group__wrapper ">
+                <span class="group__legend--tablet">Фио</span>
+                <div class="group__right-coll">
+                    <div class="group__name-wrapper">
+                        <label for="last" class="group__label-name"> Фамилия:</label>
+                        <input id="last" class="group__placeholder" type="text" placeholder="Укажите фамилию">
+                    </div>
+                    <div class="group__name-wrapper">
+                        <label for="name" class="group__label-name"> Имя:</label>
+                        <input id="name" class="group__placeholder" type="text" placeholder="Введите ваше имя">
+                    </div>
+                    <div class="group__name-wrapper">
+                        <label for="patr" class="group__label-name">Отчество:</label>
+                        <input id="patr" class="group__placeholder" type="text" placeholder="Отчество, если желаете">
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div class="container container--color">
+        <fieldset class="group">
+            <legend class="group__legend">Тел</legend>
+            <div class="group__name-wrapper group__wrapper">
+                <span class="group__legend--tablet">Тел</span>
+                <div class="group__right-coll group__right-coll--phone">
+                    <input type="tel" class="group__placeholder" placeholder="+7 ХХХ ХХ ХХ" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="group">
+            <legend class="group__legend">E-mail</legend>
+            <div class="group__name-wrapper group__wrapper">
+                <span class="group__legend--tablet">E-mail</span>
+                <div class="group__right-coll group__right-coll--mail">
+                    <input type="email" class="group__placeholder" placeholder="Ваш e-mail">
+                </div>
+
+            </div>
+        </fieldset>
+    </div>
+    <div class="container">
+        <fieldset class="group ">
+            <legend class="group__legend">Доп</legend>
+            <div class="group__wrapper">
+                <span class="group__legend--tablet">Доп</span>
+                <div class="group__right-coll group__placeholder-textarea">
+                    <textarea type="text" class="group__placeholder group__textarea"
+                              placeholder="Опишите все ваши пожелания к заказу"></textarea>
+                </div>
+            </div>
+        </fieldset>
+        <div class="group ">
+            <div class="group__wrapper group__send">
+                <button class="group__button button">Отправить заказ</button>
+                <span class="group__right-coll group__right-coll--desc">Все поля являются обязательными</span>
+            </div>
+        </div>
+
+    </div>
+</form>
+<div class="footer">
+    <div class="container footer__tablet">
+        <div class="footer__block">
+            <a href="index.html" class="footer__logo"></a>
+        </div>
+        <div class="footer__wrapper footer__block">
+            <a href="https://www.instagram.com/" class="footer__social ">
+                <i class="footer__social-insta icon"></i>
+            </a>
+            <a href="https://ru-ru.facebook.com/" class="footer__social">
+                <i class="footer__social-fb icon"></i>
+            </a>
+            <a href="https://twitter.com/?lang=ru" class="footer__social">
+                <i class="footer__social-twitter icon"></i>
+            </a>
+        </div>
+        <div class="footer__develop footer__block">
+            <a href="https://htmlacademy.ru" class="footer__develop-title">Разработано</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="scripts/app.js"></script>
+</body>
+</html>

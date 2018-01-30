@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Website Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic,cyrillic-ext"
+          rel="stylesheet">
+</head>
+<body>
+<header class="header header--mobile">
+    <div class="container">
+        <div class="header__content">
+            <a href="index.html" class="header__logo">
+                <i class="header__logo-img icon"></i>
+            </a>
+            <span class="header__sandwich "></span>
+        </div>
+    </div>
+</header>
+<header class="header header--tablet">
+    <div class="container">
+        <div class="header__content">
+            <a href="index.html" class="header__tablet-logo">
+                <i class="header__logo-img icon"></i>
+            </a>
+            <div class="header__nav">
+                <div class="header__nav-wrapper">
+                    <a href="#" class="header__nav-search icon"></a>
+                </div>
+                <div class="header__nav-cart icon">
+                    <a href="#" class="header__nav-link icon"> Корзина: пока пуста</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav-bottom">
+            <div class="header__nav-menu">
+                <div class="header__nav-left">
+                    <a href="catalog.html">Каталог товаров</a>
+                </div>
+                <div class="header__nav-">
+                    <a href="#">Вязание на заказ</a>
+                </div>
+            </div>
+            <div class="header__nav-menu header__nav-menu--grey">
+                <span>Бесплатная доставка по России</span>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="header-new">
+    <div class="container ">
+        <div class="header-new__top">
+            <div class="header-new__block">
+                <div class="header-new__nav">
+                    <div class="header-new__nav-top">
+                        <a href="catalog.html" class="header-new__link">Каталог товаров</a>
+                    </div>
+                    <div class="header-new__nav-top">
+                        <a href="#" class="">Вязание на заказ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-new__block header-new__logo">
+                <a href="index.html">
+                    <i class="header-new__icon icon"></i>
+                </a>
+            </div>
+            <div class="header-new__block">
+                <div class="header-new__user">
+                    <div class="header-new__search">
+                        <a href="catalog.html" class="header-new__search-icon icon "></a>
+                    </div>
+
+                    <div class="header-new__cart">
+                        <a href="#" class="header-new__cart-icon "> Корзина: пока пуста</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-new__bottom">
+            <div class="header-new__nav">
+                <div class="header-new__nav-bottom">
+                    <a href="#">Новые поступления</a>
+                </div>
+                <div class="header-new__nav-bottom">
+                    <a href="#">Распродажа</a>
+                </div>
+            </div>
+            <div class="header-new__nav-delivery">
+                <span>Бесплатная доставка по России</span>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="menu">
+    <ul class="menu__nav">
+        <li class="menu__item">
+            <a href="">Каталог товаров</a>
+        </li>
+        <li class="menu__item">
+            <a href="">Вязание на заказ</a>
+        </li>
+        <li class="menu__item menu__item--search">
+            <a href="">Поиск по сайту</a>
+        </li>
+        <li class="menu__item menu__item--cart">
+            <a href="">Корзина: пока пуста</a>
+        </li>
+    </ul>
+</div>
+<div class="catalog">
+    <h2 class="catalog__title">Каталог товаров
+        <div class="catalog__border--tablet"></div>
+    </h2>
+    <div class="container catalog__container">
+        <article class="product">
+                <div class="product__img-wrp">
+                    <picture>
+                        <source media="(min-width:1050px)" srcset="images/photo-1-desktop.jpg">
+                        <source media="(min-width:600px)" srcset="images/photo-1-tablet.jpg">
+                        <img class="product__img" src="images/photo-1.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="product__info">
+                    <div class="product__description">
+                        <h2 class="product__title">Зайчик-попрыгайчик</h2>
+                        <span class="product__parameter">Рост 30 см, вес 200 г</span>
+                    </div>
+                    <div class="product__price">
+                        <span class="product__value">1 200 руб.</span>
+                        <div class="product__cart">
+                            <i class="product__cart-img icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        <article class="product">
+            <div class="product__img-wrp">
+                <picture>
+                    <source media="(min-width:1050px)" srcset="images/photo-2-desktop.jpg">
+                    <source media="(min-width:600px)" srcset="images/photo-2-tablet.jpg">
+                    <img class="product__img" src="images/photo-2.jpg" alt="">
+                </picture>
+            </div>
+            <div class="product__info">
+                <div class="product__description">
+                    <h2 class="product__title">Корзинка для белья</h2>
+                    <span class="product__parameter">Диаметр 15 см, высота 10 см</span>
+                </div>
+                <div class="product__price">
+                    <span class="product__value">690 руб.</span>
+                    <div class="product__cart">
+                        <i class="product__cart-img icon"></i>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="product">
+            <div class="product__img-wrp">
+                <picture>
+                    <source media="(min-width:1050px)" srcset="images/photo-3-desktop.jpg">
+                    <source media="(min-width:600px)" srcset="images/photo-3-tablet.jpg">
+                    <img class="product__img" src="images/photo-3.jpg" alt="">
+                </picture>
+            </div>
+            <div class="product__info">
+                <div class="product__description">
+                    <h2 class="product__title">Большая корзинка для игрушек</h2>
+                    <span class="product__parameter">Диаметр 30 см, высота 30 см</span>
+                </div>
+                <div class="product__price">
+                    <span class="product__value">1 500 руб.</span>
+                    <div class="product__cart">
+                        <i class="product__cart-img icon"></i>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+<div class="container">
+    <div class="overview">
+        <div class="overview__wrapper">
+            <div class="overview__title-wrapper">
+                <i class="overview__video-img icon"></i>
+                <h3 class="overview__title">Процесс производства</h3>
+            </div>
+        </div>
+        <div class="overview__video-wrap">
+    <video id="video"  class="overview__video" preload="none">
+        <source src="video/basket-crochet.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src="video/basket-crochet.ogv" type='video/ogv; codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src="video/basket-crochet.webm" type='video/webm; codecs="avc1.42E01E, mp4a.40.2"'>
+    </video>
+    <div id="play-button" class="overview__btn"></div>
+</div>
+        <div class="overview__wrapper">
+            <p class="overview__description">
+                По просьбам наших любимых фолловеров мы сняли для вас подробное
+                видео о том, как появляются наши товары.
+            </p>
+            <div class="overview__button button">
+                <a href="form.html">Сделать заказ</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container footer__tablet">
+        <div class="footer__block">
+            <a href="index.html" class="footer__logo"></a>
+        </div>
+        <div class="footer__wrapper footer__block">
+            <a href="https://www.instagram.com/" class="footer__social ">
+                <i class="footer__social-insta icon"></i>
+            </a>
+            <a href="https://ru-ru.facebook.com/" class="footer__social">
+                <i class="footer__social-fb icon"></i>
+            </a>
+            <a href="https://twitter.com/?lang=ru" class="footer__social">
+                <i class="footer__social-twitter icon"></i>
+            </a>
+        </div>
+        <div class="footer__develop footer__block">
+            <a href="https://htmlacademy.ru" class="footer__develop-title">Разработано</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="scripts/app.js"></script>
+</body>
+</html>
